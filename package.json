@@ -4,5 +4,14 @@
   "engines": {
     "vscode": "^1.65.0"
   },
-  "scripts": {}
+  "scripts": {
+    "build:ids": "esno scripts/get_ids.ts"
+  },
+  "devDependencies": {
+    "@octokit/request": "^5.6.3",
+    "@types/lodash": "^4.14.179",
+    "esno": "^0.14.1",
+    "lodash": "^4.17.21",
+    "typescript": "^4.6.2"
+  }
 }

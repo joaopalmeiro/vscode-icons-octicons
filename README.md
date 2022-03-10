@@ -17,7 +17,7 @@
 - VS Code:
   - [Extension Manifest](https://code.visualstudio.com/api/references/extension-manifest) (`package.json`).
   - [Product Icon Reference](https://code.visualstudio.com/api/references/icons-in-labels#icon-listing):
-    - `vscode-codicons` 0.0.14:
+    - [`vscode-codicons` 0.0.14](https://github.com/microsoft/vscode-codicons/tree/0.0.14):
       - [`yarn.lock` file](https://github.com/microsoft/vscode/blob/release/1.65/extensions/simple-browser/yarn.lock#L16) and [`package.json` file](https://github.com/microsoft/vscode/blob/release/1.65/extensions/simple-browser/package.json#L76).
       - [`ThirdPartyNotices.txt` file](https://github.com/microsoft/vscode/blob/release/1.65/ThirdPartyNotices.txt#L72).
       - [`cgmanifest.json` file](https://github.com/microsoft/vscode/blob/release/1.65/cgmanifest.json#L133) ([0.0.14 release](https://github.com/microsoft/vscode-codicons/releases/tag/0.0.14)).
@@ -29,3 +29,6 @@
     - [`vscode-codicons` 0.0.28](https://github.com/microsoft/vscode-codicons/releases/tag/0.0.28) ([icons](https://github.com/microsoft/vscode-codicons/tree/0.0.28/src/icons)).
   - [Vitesse Theme](https://marketplace.visualstudio.com/items?itemName=antfu.theme-vitesse).
 - [FontDrop!](https://fontdrop.info/).
+- `pnpm install --save-dev @octokit/request`.
+- `pnpm install --save-dev typescript esno`.
+- `pnpm install --save-dev lodash @types/lodash`.
