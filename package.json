@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.65.0"
+  },
+  "scripts": {}
+}
