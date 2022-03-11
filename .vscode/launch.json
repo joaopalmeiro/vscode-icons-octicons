@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Extension",
+            "type": "extensionHost",
+            "request": "launch",
+            "runtimeExecutable": "${execPath}",
+            // https://code.visualstudio.com/api/working-with-extensions/testing-extension#disabling-other-extensions-while-debugging
+            "args": ["--disable-extensions", "--extensionDevelopmentPath=${workspaceRoot}/build"]
+        }
+    ]
+}

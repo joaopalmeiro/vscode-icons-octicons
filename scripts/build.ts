@@ -54,12 +54,12 @@ for (const set of sets) {
             fontName: name,
             css: false,
             html: true,
-            startCodepoint: START_CODEPOINT
+            startCodepoint: START_CODEPOINT,
             // https://github.com/antfu/vscode-icons-carbon/pull/1
             // https://github.com/nfroidure/svgicons2svgfont#optionsnormalize
             // https://github.com/nfroidure/svgicons2svgfont#optionsfontheight
-            // fontHeight: 1000,
-            // normalize: true
+            fontHeight: 1000,
+            normalize: true
         },
         (error: any) => {
             if (error) {
@@ -100,12 +100,12 @@ for (const set of sets) {
         {
             name: name,
             publisher: 'joaopalmeiro',
-            version: pkg.version,
+            version: VERSION,
             displayName: `${displayName} Product Icons`,
             description: `${displayName} Product Icons for VS Code`,
             categories: ['Themes'],
             engines: {
-                vscode: pkg.engines.vscode
+                vscode: ENGINE
             },
             license: 'MIT',
             keywords: [displayName.toLowerCase(), 'icon', 'theme', 'product', 'product-icon-theme'],

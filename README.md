@@ -11,6 +11,9 @@
 ## Development
 
 - `pnpm install`.
+- `pnpm build:ids`.
+- `pnpm build`.
+- macOS: `Fn`+`F5`.
 
 ## Notes
 
