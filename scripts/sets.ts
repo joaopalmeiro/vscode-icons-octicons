@@ -9,12 +9,14 @@ export interface IconSet {
 }
 
 // https://code.visualstudio.com/api/references/icons-in-labels#icon-listing
+// https://icon-sets.iconify.design/octicon/
+// https://icon-sets.iconify.design/codicon/
 export const sets: IconSet[] = [
     {
         name: 'icons-octicons',
         display: 'Octicons',
         icons: {
-            'codicon:extensions': 'octicons:container-software'
+            'codicon:extensions': 'octicon:accessibility-16'
         }
     }
 ];

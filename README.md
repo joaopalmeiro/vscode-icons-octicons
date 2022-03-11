@@ -35,3 +35,4 @@
 - `pnpm install --save-dev fs-extra @types/fs-extra`.
 - `pnpm install --save-dev dedent @types/dedent`.
 - `pnpm install --save-dev prettier @types/prettier @joaopalmeiro/prettier-config`.
+- `pnpm install --save-dev webfonts-generator @iconify/json`.
