@@ -32,3 +32,6 @@
 - `pnpm install --save-dev @octokit/request`.
 - `pnpm install --save-dev typescript esno`.
 - `pnpm install --save-dev lodash @types/lodash`.
+- `pnpm install --save-dev fs-extra @types/fs-extra`.
+- `pnpm install --save-dev dedent @types/dedent`.
+- `pnpm install --save-dev prettier @types/prettier @joaopalmeiro/prettier-config`.
