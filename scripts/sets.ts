@@ -14,12 +14,16 @@ const VALUE_PREFIX: string = 'octicon';
 // https://icon-sets.iconify.design/octicon/
 // https://primer.style/octicons/
 // https://icon-sets.iconify.design/codicon/
+// https://github.com/antfu/vscode-icons-carbon/blob/v0.2.4/scripts/sets.ts
 export const sets: IconSet[] = [
     {
         name: 'icons-octicons',
         display: 'Octicons',
         icons: {
-            'codicon:account': `${VALUE_PREFIX}:person-24`
+            'codicon:account': `${VALUE_PREFIX}:person-24`,
+            'codicon:files': `${VALUE_PREFIX}:file-directory-24`,
+            'codicon:search': `${VALUE_PREFIX}:search-24`,
+            'codicon:source-control': `${VALUE_PREFIX}:git-branch-24`
         }
     }
 ];

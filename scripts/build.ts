@@ -103,6 +103,7 @@ for (const set of sets) {
             version: VERSION,
             displayName: `${displayName} Product Icons`,
             description: `${displayName} Product Icons for VS Code`,
+            icon: 'logo.png',
             categories: ['Themes'],
             engines: {
                 vscode: ENGINE
@@ -137,4 +138,5 @@ for (const set of sets) {
     );
 
     fs.copySync('README.md', `build/${name}/README.md`);
+    fs.copySync('assets/logo.png', `build/${name}/logo.png`);
 }

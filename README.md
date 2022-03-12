@@ -7,6 +7,8 @@
 - [Carbon Product Icons](https://marketplace.visualstudio.com/items?itemName=antfu.icons-carbon) by [Anthony Fu](https://github.com/antfu) ([repo](https://github.com/antfu/vscode-icons-carbon)).
 - [Feather Product Icons](https://marketplace.visualstudio.com/items?itemName=melishev.feather-vscode) by [Matvey Melishev](https://github.com/melishev) ([repo](https://github.com/melishev/feather-vscode/)).
 - [Codicons](https://github.com/microsoft/vscode-codicons).
+- [Octicons](https://primer.style/octicons/).
+- [GitHub Logos and Usage](https://github.com/logos).
 
 ## Development
 
@@ -17,8 +19,12 @@
 
 ## Notes
 
+- Figma:
+  - [react-profile-icons](https://www.figma.com/file/tibfRu8o2yQOaDZKwuJkVh/react-profile-icons?node-id=0%3A1).
+  - [vscode-icons-octicons](https://www.figma.com/file/dsXalxOwiH6jq3SbjU2xhM/vscode-icons-octicons?node-id=0%3A1).
 - VS Code:
-  - [Extension Manifest](https://code.visualstudio.com/api/references/extension-manifest) (`package.json`).
+  - [Extension Manifest](https://code.visualstudio.com/api/references/extension-manifest) (`package.json`):
+    - `icon`: at least 256x256 pixels.
   - [Product Icon Reference](https://code.visualstudio.com/api/references/icons-in-labels#icon-listing):
     - [`vscode-codicons` 0.0.14](https://github.com/microsoft/vscode-codicons/tree/0.0.14):
       - [`yarn.lock` file](https://github.com/microsoft/vscode/blob/release/1.65/extensions/simple-browser/yarn.lock#L16) and [`package.json` file](https://github.com/microsoft/vscode/blob/release/1.65/extensions/simple-browser/package.json#L76).
