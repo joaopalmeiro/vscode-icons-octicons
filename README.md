@@ -47,3 +47,8 @@
 - `pnpm install --save-dev prettier @types/prettier @joaopalmeiro/prettier-config`.
 - `pnpm install --save-dev webfonts-generator @iconify/json`.
 - [conventional-github-releaser](https://www.npmjs.com/package/conventional-github-releaser) package.
+- [Open VSX](https://open-vsx.org/):
+  - [Publish to open-vsx](https://github.com/antfu/vscode-icons-carbon/issues/9) issue.
+  - [Publishing Extensions](https://github.com/eclipse/openvsx/wiki/Publishing-Extensions).
+  - [Repo](https://github.com/eclipse/openvsx).
+  - [VSCodium](https://vscodium.com/).
