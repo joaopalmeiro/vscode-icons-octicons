@@ -37,6 +37,7 @@
     - [Codicons](https://github.com/microsoft/vscode/blob/release/1.65/src/vs/base/common/codicons.ts) and [font](https://github.com/microsoft/vscode/tree/release/1.65/src/vs/base/browser/ui/codicons/codicon).
     - [`vscode-codicons` 0.0.28](https://github.com/microsoft/vscode-codicons/releases/tag/0.0.28) ([icons](https://github.com/microsoft/vscode-codicons/tree/0.0.28/src/icons)).
   - [Vitesse Theme](https://marketplace.visualstudio.com/items?itemName=antfu.theme-vitesse).
+  - [Publishing Extensions](https://code.visualstudio.com/api/working-with-extensions/publishing-extension).
 - [FontDrop!](https://fontdrop.info/).
 - `pnpm install --save-dev @octokit/request`.
 - `pnpm install --save-dev typescript esno`.
@@ -45,3 +46,4 @@
 - `pnpm install --save-dev dedent @types/dedent`.
 - `pnpm install --save-dev prettier @types/prettier @joaopalmeiro/prettier-config`.
 - `pnpm install --save-dev webfonts-generator @iconify/json`.
+- [conventional-github-releaser](https://www.npmjs.com/package/conventional-github-releaser) package.
