@@ -38,6 +38,7 @@
     - [`vscode-codicons` 0.0.28](https://github.com/microsoft/vscode-codicons/releases/tag/0.0.28) ([icons](https://github.com/microsoft/vscode-codicons/tree/0.0.28/src/icons)).
   - [Vitesse Theme](https://marketplace.visualstudio.com/items?itemName=antfu.theme-vitesse).
   - [Publishing Extensions](https://code.visualstudio.com/api/working-with-extensions/publishing-extension).
+  - [Approved Badges](https://code.visualstudio.com/api/references/extension-manifest#approved-badges).
 - [FontDrop!](https://fontdrop.info/).
 - `pnpm install --save-dev @octokit/request`.
 - `pnpm install --save-dev typescript esno`.
@@ -52,3 +53,8 @@
   - [Publishing Extensions](https://github.com/eclipse/openvsx/wiki/Publishing-Extensions).
   - [Repo](https://github.com/eclipse/openvsx).
   - [VSCodium](https://vscodium.com/).
+- GitHub topics:
+  - vscode
+  - vscode-extension
+  - vscode-product-icons
+- `pnpm install --save-dev vsce ovsx`.

@@ -2,6 +2,7 @@
 # - https://github.com/antfu/vscode-icons-carbon/blob/v0.2.4/.github/workflows/release.yml
 # - https://github.com/actions/checkout#usage
 # - https://github.com/pnpm/action-setup
+# - https://github.com/microsoft/vscode-vsce/blob/main/src/main.ts#L161
 name: Release
 
 on:
@@ -29,3 +30,9 @@ jobs:
           version: 6.25.1
           run_install: true
       - run: pnpm build
+      - run: cd build/icons-octicons && pnpm exec vsce publish -p ${{secrets.VSCE_TOKEN}}
+        env:
+          VSCE_TOKEN: ${{secrets.VSCE_TOKEN}}
+      - run: cd build/icons-octicons && pnpm exec ovsx publish -p ${{secrets.OVSX_TOKEN}}
+        env:
+          OVSX_TOKEN: ${{secrets.OVSX_TOKEN}}
