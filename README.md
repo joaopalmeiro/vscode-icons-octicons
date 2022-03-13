@@ -17,6 +17,11 @@
 - `pnpm build`.
 - macOS: `Fn`+`F5`.
 
+## Deployment
+
+- `pnpm version minor` or `pnpm version patch` or `pnpm version major`.
+- `git push --follow-tags`.
+
 ## Notes
 
 - Figma:
