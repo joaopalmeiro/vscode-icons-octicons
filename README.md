@@ -20,6 +20,7 @@
 ## Deployment
 
 - `pnpm version minor` or `pnpm version patch` or `pnpm version major`.
+- `git tag`.
 - `git push --follow-tags`.
 
 ## Notes
