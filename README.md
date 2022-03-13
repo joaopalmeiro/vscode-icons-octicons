@@ -53,8 +53,10 @@
   - [Publishing Extensions](https://github.com/eclipse/openvsx/wiki/Publishing-Extensions).
   - [Repo](https://github.com/eclipse/openvsx).
   - [VSCodium](https://vscodium.com/).
+  - `npx ovsx create-namespace joaopalmeiro -p <token>`.
 - GitHub topics:
   - vscode
   - vscode-extension
   - vscode-product-icons
 - `pnpm install --save-dev vsce ovsx`.
+- [Publisher profile](https://marketplace.visualstudio.com/publishers/joaopalmeiro).
